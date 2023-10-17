@@ -10,15 +10,21 @@ const Projects = ({openModal,setOpenModal}) => {
   return (
     <Container id="projects">
       <Wrapper>
-        <Title>Projects</Title>
+        <Title>Theis Work and Projects</Title>
         <Desc>
-          I have worked on a wide range of projects. From Remote Control to Security Systems. Here are some of my projects.
+          I have worked on a wide range of Theis work and projects. From Remote Control to Security Systems. Here are some of my projects.
         </Desc>
         <ToggleButtonGroup >
           {toggle === 'all' ?
             <ToggleButton active value="all" onClick={() => setToggle('all')}>All</ToggleButton>
             :
             <ToggleButton value="all" onClick={() => setToggle('all')}>All</ToggleButton>
+          }
+          <Divider />
+           {toggle === 'Thesis' ?
+            <ToggleButton active value="Thesis" onClick={() => setToggle('Thesis')}>Thesis</ToggleButton>
+            :
+            <ToggleButton value="Thesis" onClick={() => setToggle('Thesis')}>Thesis</ToggleButton>
           }
           <Divider />
           {toggle === 'Security' ?
@@ -32,6 +38,7 @@ const Projects = ({openModal,setOpenModal}) => {
             :
             <ToggleButton value="Remote Control" onClick={() => setToggle('Remote Control')}>Remote Control'S</ToggleButton>
           }
+           
           <Divider />
           {toggle === 'Arduino' ?
             <ToggleButton active value="Arduino" onClick={() => setToggle('Arduino')}>Arduino</ToggleButton>

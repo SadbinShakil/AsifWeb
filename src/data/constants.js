@@ -316,6 +316,20 @@ export const projects = [
     github: "#",
     webapp: "#",
   },
+
+  {
+    id: 4,
+    title: "Overhead three Phase transmission line fault analyses and detection using IoT",
+    date: "Dec 2021 - Apr 2022",
+    description:
+      "Analyzing and detecting faults in overhead three-phase transmission lines through IoT technology for enhanced reliability and efficiency.",
+    image:
+      "https://www.electrosal.com/wp-content/uploads/2022/03/2-2.jpg",
+    tags: ["IoT Sensors and Devices", "Edge Computing","Data Visualization Tools","Communication Protocols","Cloud Computing and Data Analytics"],
+    category: "Thesis",
+    github: "#",
+    webapp: "#",
+  },
 ];
 
 export const TimeLineData = [
