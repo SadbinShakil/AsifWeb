@@ -10,7 +10,7 @@ const Projects = ({openModal,setOpenModal}) => {
   return (
     <Container id="projects">
       <Wrapper>
-        <Title>Theis Work and Projects</Title>
+        <Title>Thesis Work and Projects</Title>
         <Desc>
           I have worked on a wide range of Theis work and projects. From Remote Control to Security Systems. Here are some of my projects.
         </Desc>
