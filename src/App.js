@@ -12,8 +12,10 @@ import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import Experience from "./components/Experience";
 import Education from "./components/Education";
+import Book from "./components/Book"; // Import the Book component
 import ProjectDetails from "./components/ProjectDetails";
 import styled from "styled-components";
+
 
 const Body = styled.div`
   background-color: ${({ theme }) => theme.bg};
@@ -40,9 +42,12 @@ function App() {
             <Skills />
             <Experience />
           </Wrapper>
+          
           <Projects openModal={openModal} setOpenModal={setOpenModal} />
           <Wrapper>
             <Education />
+          
+            <Book />
             <Contact />
           </Wrapper>
           <Footer />
