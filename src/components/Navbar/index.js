@@ -39,7 +39,7 @@ const handleContactClick = () => {
           <NavLink href='#experience'>Experience</NavLink>
           <NavLink href='#projects'>Projects</NavLink>
           <NavLink href='#education'>Education</NavLink>
-          <NavLink href='#gallery'>Gallery</NavLink>
+         
           <NavLink onClick={handleContactClick}>Contact</NavLink> {/* Add this line for the Contact link */}
         </NavItems>
         <ButtonContainer>
