@@ -89,6 +89,29 @@ export const skills = [
       
     ],
   },
+
+  {
+    title: "Research Areas",
+    skills: [
+      {
+        name: "Power System",
+        image:
+          "https://www.opal-rt.com/wp-content/uploads/2016/07/fond_power_sys_control-1030x429.jpg",
+      },
+      {
+        name: "Renewable Energy",
+        image:
+          "https://www.tuv.com/content-media-files/master-content/global-landingpages/images/e3/focus-topics/power-generation-(hydro-biomass-fossil-nuclear-solar-wind).jpg",
+      },
+      
+      {
+        name: "Smart Grid",
+        image:
+          "https://fb-advisor.it/wp-content/uploads/2021/12/Smart-Grid.jpg",
+      },
+      
+    ],
+  },
 ];
 
 export const experiences = [
