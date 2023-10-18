@@ -22,7 +22,7 @@ export const Bio = {
   twitter: "https://twitter.com/",
   insta: "https://www.instagram.com/",
   facebook: "https://www.facebook.com/asifuzzaman.ussas.9",
-  youtube: "https://www.youtube.com",
+  youtube: "https://www.youtube.com/@asifuzzamanucchwas5846",
 };
 
 export const skills = [
