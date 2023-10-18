@@ -7,6 +7,7 @@ import { Close, CloseRounded } from '@mui/icons-material';
 import { useTheme } from 'styled-components';
 
 
+
 const Navbar = () => {
   const [isOpen, setIsOpen] = React.useState(false);
   const theme = useTheme()
@@ -39,7 +40,8 @@ const handleContactClick = () => {
           <NavLink href='#experience'>Experience</NavLink>
           <NavLink href='#projects'>Projects</NavLink>
           <NavLink href='#education'>Education</NavLink>
-          <NavLink href='#gallery'>Gallery</NavLink>
+          <NavLink href='#books'>Books</NavLink>
+          
           <NavLink onClick={handleContactClick}>Contact</NavLink> {/* Add this line for the Contact link */}
         </NavItems>
         <ButtonContainer>
@@ -60,6 +62,11 @@ const handleContactClick = () => {
             <MobileLink href='#projects' onClick={() => {
               setIsOpen(!isOpen)
             }}>Projects</MobileLink>
+            <MobileLink href='#books' onClick={() => {
+              setIsOpen(!isOpen)
+            }}>Books</MobileLink>
+
+           
             <MobileLink href='#education' onClick={() => {
               setIsOpen(!isOpen)
             }}>Education</MobileLink>

@@ -17,6 +17,10 @@ import ProjectDetails from "./components/ProjectDetails";
 import styled from "styled-components";
 
 
+import { BrowserRouter as Route } from 'react-router-dom';
+
+
+
 const Body = styled.div`
   background-color: ${({ theme }) => theme.bg};
   width: 100%;
@@ -36,6 +40,7 @@ function App() {
     <ThemeProvider theme={darkMode ? darkTheme : lightTheme}>
       <Router >
         <Navbar />
+        
         <Body>
           <HeroSection />
           <Wrapper>
@@ -48,6 +53,7 @@ function App() {
             <Education />
           
             <Book />
+         
             <Contact />
           </Wrapper>
           <Footer />
