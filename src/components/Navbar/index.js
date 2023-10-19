@@ -5,6 +5,8 @@ import { FaBars } from 'react-icons/fa';
 import { Bio } from '../../data/constants';
 import { Close, CloseRounded } from '@mui/icons-material';
 import { useTheme } from 'styled-components';
+import { Link } from 'react-router-dom';
+import { NavLink as StyledNavLink } from './NavbarStyledComponent';
 
 
 
@@ -24,7 +26,7 @@ const handleContactClick = () => {
   return (
     <Nav>
       <NavbarContainer>
-        <NavLogo to='/'>
+        <NavLogo to='#'>
           <a style={{ display: "flex", alignItems: "center", color: "white", marginBottom: '20;', cursor: 'pointer' }}>
             <DiCssdeck size="3rem" /> <Span>Asifuzzaman</Span>
           </a>
@@ -41,7 +43,8 @@ const handleContactClick = () => {
           <NavLink href='#projects'>Projects</NavLink>
           <NavLink href='#education'>Education</NavLink>
           <NavLink href='#books'>Books</NavLink>
-         
+          {/* <NavLink as={Link} to="/gallery">Gallery</NavLink> */}
+          <NavLink as={Link} to="/gallery">Gallery</NavLink>
           <NavLink onClick={handleContactClick}>Contact</NavLink> {/* Add this line for the Contact link */}
         </NavItems>
         <ButtonContainer>
@@ -62,9 +65,16 @@ const handleContactClick = () => {
             <MobileLink href='#projects' onClick={() => {
               setIsOpen(!isOpen)
             }}>Projects</MobileLink>
-          <MobileLink href='#books' onClick={() => {
+
+            <MobileLink href='#books' onClick={() => {
               setIsOpen(!isOpen)
             }}>Books</MobileLink>
+
+          {/* <MobileLink as={Link} to="/gallery" onClick={() => { 
+              setIsOpen(!isOpen);
+          }}>Gallery</MobileLink> */}
+
+           
             <MobileLink href='#education' onClick={() => {
               setIsOpen(!isOpen)
             }}>Education</MobileLink>

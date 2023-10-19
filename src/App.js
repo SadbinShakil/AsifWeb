@@ -1,9 +1,11 @@
+import React from 'react';
 import { ThemeProvider } from "styled-components";
 import { useState, useEffect } from "react";
-import { darkTheme, lightTheme } from './utils/Themes.js'
+import { darkTheme, lightTheme } from './utils/Themes.js';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from "./components/Navbar";
 import './App.css';
-import { BrowserRouter as Router } from 'react-router-dom';
+//import { BrowserRouter as Router } from 'react-router-dom';
 import HeroSection from "./components/HeroSection";
 import About from "./components/About";
 import Skills from "./components/Skills";
@@ -15,9 +17,7 @@ import Education from "./components/Education";
 import Book from "./components/Book"; // Import the Book component
 import ProjectDetails from "./components/ProjectDetails";
 import styled from "styled-components";
-
-
-import { BrowserRouter as Route } from 'react-router-dom';
+import Gallery from './components/Gallery/Gallery';
 
 
 
@@ -52,8 +52,7 @@ function App() {
           <Wrapper>
             <Education />
           
-            <Book />
-         
+            <Book /> 
             <Contact />
           </Wrapper>
           <Footer />
@@ -61,6 +60,10 @@ function App() {
             <ProjectDetails openModal={openModal} setOpenModal={setOpenModal} />
           }
         </Body>
+         <Routes> 
+           <Route path="/gallery" component={Gallery} />
+        </Routes> 
+        
       </Router>
     </ThemeProvider>
   );

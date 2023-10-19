@@ -5,6 +5,7 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import YouTubeIcon from '@mui/icons-material/YouTube';
 import { Bio } from '../../data/constants';
+import { Link } from 'react-router-dom';
 
 const FooterContainer = styled.div`
   width: 100%;
@@ -97,6 +98,7 @@ function Footer() {
           <NavLink href="#projects">Projects</NavLink>
           <NavLink href="#education">Education</NavLink>
           <NavLink href='#books'>Books</NavLink>
+          <NavLink as={Link} to='/gallery'>Gallery</NavLink>
         </Nav>
         <SocialMediaIcons>
           <SocialMediaIcon href={Bio.facebook} target="display"><FacebookIcon /></SocialMediaIcon>
