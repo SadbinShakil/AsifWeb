@@ -26,7 +26,7 @@ const handleContactClick = () => {
       <NavbarContainer>
         <NavLogo to='/'>
           <a style={{ display: "flex", alignItems: "center", color: "white", marginBottom: '20;', cursor: 'pointer' }}>
-            <DiCssdeck size="3rem" /> <Span>Portfolio</Span>
+            <DiCssdeck size="3rem" /> <Span>Asifuzzaman</Span>
           </a>
         </NavLogo>
         <MobileIcon>
@@ -41,7 +41,7 @@ const handleContactClick = () => {
           <NavLink href='#projects'>Projects</NavLink>
           <NavLink href='#education'>Education</NavLink>
           <NavLink href='#books'>Books</NavLink>
-          
+         
           <NavLink onClick={handleContactClick}>Contact</NavLink> {/* Add this line for the Contact link */}
         </NavItems>
         <ButtonContainer>
@@ -62,11 +62,9 @@ const handleContactClick = () => {
             <MobileLink href='#projects' onClick={() => {
               setIsOpen(!isOpen)
             }}>Projects</MobileLink>
-            <MobileLink href='#books' onClick={() => {
+          <MobileLink href='#books' onClick={() => {
               setIsOpen(!isOpen)
             }}>Books</MobileLink>
-
-           
             <MobileLink href='#education' onClick={() => {
               setIsOpen(!isOpen)
             }}>Education</MobileLink>
