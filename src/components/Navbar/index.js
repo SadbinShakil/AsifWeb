@@ -70,9 +70,9 @@ const handleContactClick = () => {
               setIsOpen(!isOpen)
             }}>Books</MobileLink>
 
-          {/* <MobileLink as={Link} to="/gallery" onClick={() => { 
+          <MobileLink as={Link} to="/gallery" onClick={() => { 
               setIsOpen(!isOpen);
-          }}>Gallery</MobileLink> */}
+          }}>Gallery</MobileLink>
 
            
             <MobileLink href='#education' onClick={() => {
