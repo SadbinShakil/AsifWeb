@@ -98,7 +98,8 @@ function Footer() {
           <NavLink href="#projects">Projects</NavLink>
           <NavLink href="#education">Education</NavLink>
           <NavLink href='#books'>Books</NavLink>
-          <NavLink as={Link} to='/gallery'>Gallery</NavLink>
+          <NavLink href='#gallery'>Books</NavLink>
+          
         </Nav>
         <SocialMediaIcons>
           <SocialMediaIcon href={Bio.facebook} target="display"><FacebookIcon /></SocialMediaIcon>

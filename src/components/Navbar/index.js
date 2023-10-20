@@ -42,7 +42,7 @@ const handleContactClick = () => {
           <NavLink href='#experience'>Experience</NavLink>
           <NavLink href='#projects'>Projects</NavLink>
           <NavLink href='#gallery'>Gallery</NavLink>
-          <NavLink href='#education'>Education</NavLink>
+          {/* <NavLink href='#education'>Education</NavLink> */}
           <NavLink href='#books'>Books</NavLink>
           
           
