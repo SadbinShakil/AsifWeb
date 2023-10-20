@@ -2,8 +2,8 @@
 
 
 export const GalleryConstants = {
-  MAX_IMAGE_SIZE_MB: 5, // Maximum allowed image size in megabytes
-  SUPPORTED_IMAGE_FORMATS: ["image/jpeg", "image/png"], // Supported image formats
+  MAX_IMAGE_SIZE_MB: 10, // Maximum allowed image size in megabytes
+  SUPPORTED_IMAGE_FORMATS: ["image/jpeg", "image/png", "image/jpg"], // Supported image formats
   DEFAULT_CAPTION: "Enter your caption here", // Default caption for uploaded images
 };
 
@@ -332,6 +332,44 @@ export const projects = [
     webapp: "#",
   },
 ];
+
+
+
+export const gallery = [ 
+
+  {
+    id: 0,
+    description:
+      "Confidence in Every Stitch: Elevating Style, Redefining Elegance. #SuitUp #ProfessionalElegance",
+    image:
+      "https://i.ibb.co/kSqm5Zf/Hero-Image.jpg",
+  },
+  {
+    id: 1,
+    description:
+      "Bathed in Moonlight, Embracing the Night. Capturing Moments, Creating Memories. #NighttimeElegance #MoonlitAdventures",
+    image:
+      "https://i.ibb.co/Q8DYm6p/6.jpg",
+  },
+
+  {
+    id: 2,  
+    description:
+      "In the Heart of Knowledge: Surrounded by Stories, Enriched by Wisdom. Embracing the Power of Learning. #BookwormAdventures #LibraryLife 📚",
+    image:
+      "https://i.ibb.co/ykTGQf5/1.jpg",
+  },
+
+  {
+    id: 3,
+    description:
+      "Lost in Nature's Canvas: Atop the World, Breathing in Serenity. Embracing the Beauty of the Earth. #NatureLover #Wanderlust 🍃",
+    image:
+      "https://i.ibb.co/Gcn1wm7/5.jpg",
+  },
+  
+];
+
 
 export const TimeLineData = [
   { year: 2017, text: "Started my journey" },

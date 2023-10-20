@@ -16,8 +16,9 @@ import Experience from "./components/Experience";
 import Education from "./components/Education";
 import Book from "./components/Book"; // Import the Book component
 import ProjectDetails from "./components/ProjectDetails";
+import GalleryDetails from "./components/GalleryDetails";
 import styled from "styled-components";
-import Gallery from './components/Gallery/Gallery';
+import Gallery from "./components/Gallery";
 
 
 
@@ -53,16 +54,18 @@ function App() {
             <Education />
           
             <Book /> 
+            <Gallery />
             <Contact />
           </Wrapper>
           <Footer />
           {openModal.state &&
             <ProjectDetails openModal={openModal} setOpenModal={setOpenModal} />
           }
+           {/* {openModal.state &&
+            <GalleryDetails openModal={openModal} setOpenModal={setOpenModal} />
+          } */}
         </Body>
-         <Routes> 
-           <Route path="/gallery" component={Gallery} />
-        </Routes> 
+         
         
       </Router>
     </ThemeProvider>

@@ -41,10 +41,11 @@ const handleContactClick = () => {
           <NavLink href='#skills'>Skills</NavLink>
           <NavLink href='#experience'>Experience</NavLink>
           <NavLink href='#projects'>Projects</NavLink>
+          <NavLink href='#gallery'>Gallery</NavLink>
           <NavLink href='#education'>Education</NavLink>
           <NavLink href='#books'>Books</NavLink>
-          {/* <NavLink as={Link} to="/gallery">Gallery</NavLink> */}
-          <NavLink as={Link} to="/gallery">Gallery</NavLink>
+          
+          
           <NavLink onClick={handleContactClick}>Contact</NavLink> {/* Add this line for the Contact link */}
         </NavItems>
         <ButtonContainer>
@@ -65,14 +66,15 @@ const handleContactClick = () => {
             <MobileLink href='#projects' onClick={() => {
               setIsOpen(!isOpen)
             }}>Projects</MobileLink>
+            <MobileLink href='#gallery' onClick={() => {
+              setIsOpen(!isOpen)
+            }}>Gallery</MobileLink>
 
             <MobileLink href='#books' onClick={() => {
               setIsOpen(!isOpen)
             }}>Books</MobileLink>
 
-          <MobileLink as={Link} to="/gallery" onClick={() => { 
-              setIsOpen(!isOpen);
-          }}>Gallery</MobileLink>
+         
 
            
             <MobileLink href='#education' onClick={() => {
