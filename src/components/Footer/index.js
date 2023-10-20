@@ -98,7 +98,7 @@ function Footer() {
           <NavLink href="#projects">Projects</NavLink>
           <NavLink href="#education">Education</NavLink>
           <NavLink href='#books'>Books</NavLink>
-          <NavLink href='#gallery'>Books</NavLink>
+          <NavLink href='#gallery'>Gallery</NavLink>
           
         </Nav>
         <SocialMediaIcons>
