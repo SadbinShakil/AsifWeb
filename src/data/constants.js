@@ -11,10 +11,13 @@ export const GalleryConstants = {
 export const Bio = {
   name: "MD ASIFUZZAMAN",
   roles: [
-    "Graduate Student at USF",
+    "Research Enthusiast & writer",
   ],
   description:
-    "Enthusiastic and motivated self-learning in Information Technology. Interested in exploring about Power System, Renewable Energy, Smart Grid.",
+    "Currently, I am pursuing my master's in Electrical Engineering at the University Of South Florida 
+     Concentrating on Machine learning and AI. 
+     I am working on speech signal processing, Source Localization and Blind Source Separation under the supervision of Professor Ravi Sanker. 
+    I am planning to link those Studies and research with autonomous cars and robots",
   github: "https://github.com/Asif-Ucchwas",
   resume:
     "https://asifuzzaman.vercel.app/static/media/resume.e74919f66f456e9cb57e.pdf",
@@ -34,16 +37,16 @@ export const skills = [
         image:
           "https://jp.mathworks.com/help/examples/matlab/win64/MatlabLogoExample_08.png",
       },
-      {
-        name: "Proteus",
-        image:
-          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqqZUNIeA8soI66zuphmZPWo6vtZZJoYV_TLUg2SIo0IOVCfOHr_KozFrF-eU6uGRTLpo&usqp=CAU",
-      },
-      {
-        name: "PSpice",
-        image:
-          "https://10besthealth.com/wp-content/uploads/2021/05/PSpice-logo-8080893.png",
-      },
+      // {
+      //   name: "Proteus",
+      //   image:
+      //     "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqqZUNIeA8soI66zuphmZPWo6vtZZJoYV_TLUg2SIo0IOVCfOHr_KozFrF-eU6uGRTLpo&usqp=CAU",
+      // },
+      // {
+      //   name: "PSpice",
+      //   image:
+      //     "https://10besthealth.com/wp-content/uploads/2021/05/PSpice-logo-8080893.png",
+      // },
       {
         name: "LaTex",
         image: "https://mathvault.ca/wp-content/uploads/latex-logo1.jpg",
@@ -58,6 +61,10 @@ export const skills = [
         name: "C++",
         image: "https://nodejs.org/static/images/logo.svg",
       },
+       {
+        name: "R",
+        image: "https://www.analytixlabs.co.in/blog/wp-content/uploads/2022/01/Banner-Image-2-1024x597.png",
+      },
       
       {
         name: "Python",
@@ -68,47 +75,47 @@ export const skills = [
     ],
   },
   
-  {
-    title: "Others",
-    skills: [
-      {
-        name: "Git",
-        image:
-          "https://camo.githubusercontent.com/fbfcb9e3dc648adc93bef37c718db16c52f617ad055a26de6dc3c21865c3321d/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f6769742d73636d2f6769742d73636d2d69636f6e2e737667",
-      },
-      {
-        name: "GitHub",
-        image:
-          "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
-      },
+  // {
+  //   title: "Others",
+  //   skills: [
+  //     {
+  //       name: "Git",
+  //       image:
+  //         "https://camo.githubusercontent.com/fbfcb9e3dc648adc93bef37c718db16c52f617ad055a26de6dc3c21865c3321d/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f6769742d73636d2f6769742d73636d2d69636f6e2e737667",
+  //     },
+  //     {
+  //       name: "GitHub",
+  //       image:
+  //         "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
+  //     },
       
-      {
-        name: "VS Code",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/512px-Visual_Studio_Code_1.35_icon.svg.png?20210804221519",
-      },
+  //     {
+  //       name: "VS Code",
+  //       image:
+  //         "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/512px-Visual_Studio_Code_1.35_icon.svg.png?20210804221519",
+  //     },
       
-    ],
-  },
+  //   ],
+  // },
 
   {
     title: "Research Areas",
     skills: [
       {
-        name: "Power System",
+        name: "Autonomous car",
         image:
-          "https://www.opal-rt.com/wp-content/uploads/2016/07/fond_power_sys_control-1030x429.jpg",
+          "https://www.kbb.com/wp-content/uploads/2021/07/Self-driving-autonomous-car.jpeg",
       },
       {
-        name: "Renewable Energy",
+        name: "IoT",
         image:
-          "https://www.tuv.com/content-media-files/master-content/global-landingpages/images/e3/focus-topics/power-generation-(hydro-biomass-fossil-nuclear-solar-wind).jpg",
+          "https://www.globalsign.com/application/files/7416/3763/0034/General_Banner_WhatisIOT_4_APAC_2021_11_22.jpg",
       },
       
       {
-        name: "Smart Grid",
+        name: "speech signal processing",
         image:
-          "https://fb-advisor.it/wp-content/uploads/2021/12/Smart-Grid.jpg",
+          "https://s41256.pcdn.co/wp-content/uploads/2019/06/iStock-1095043188-750x422-1.jpg.webp",
       },
       
     ],
@@ -122,11 +129,13 @@ export const experiences = [
     role: "Research and Development intern",
     company: "Tesla Lab, A wings of Infinity Group, Bangladesh",
     date: "Dec 2021 - Mar 2022",
-    desc: "Worked with the R&D team to upgrade the existing products.",
+    desc: "I worked as a  Research and Development intern specializing in the intersection of IoT and Electrical Engineering. My passion lies in harnessing the power of innovative technologies to create intelligent and interconnected systems. Throughout my internship, I have actively engaged in a few projects that bridge the gap between the digital and physical worlds.",
     skills: [
-      "IoT",
-      "Eco-Web Power",
-      "Arduino",
+      "Conduct research to identify emerging trends, technologies, and opportunities in IoT and Electrical Engineering.",
+      "Stay updated on the latest developments in hardware, software, and communication protocols relevant to IoT applications.",
+      "Collaborate with cross-functional teams to define project requirements and specifications.",
+      "Implement and test embedded systems for IoT applications, ensuring reliability and performance.",
+      "Create detailed documentation for designs, processes, and project outcomes.",
       
     ],
     
