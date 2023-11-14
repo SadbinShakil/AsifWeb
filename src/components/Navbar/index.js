@@ -39,13 +39,11 @@ const handleContactClick = () => {
         <NavItems>
           <NavLink href="#about">About</NavLink>
           <NavLink href='#skills'>Skills</NavLink>
+         <NavLink href='#projects'>Projects and Projects</NavLink>
           <NavLink href='#experience'>Experience</NavLink>
-          <NavLink href='#projects'>Projects</NavLink>
-          <NavLink href='#gallery'>Gallery</NavLink>
-          {/* <NavLink href='#education'>Education</NavLink> */}
+          <NavLink href='#education'>Education</NavLink>
           <NavLink href='#books'>Books</NavLink>
-          
-          
+          <NavLink href='#gallery'>Gallery</NavLink>
           <NavLink onClick={handleContactClick}>Contact</NavLink> {/* Add this line for the Contact link */}
         </NavItems>
         <ButtonContainer>
