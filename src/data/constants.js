@@ -180,19 +180,18 @@ export const experiences = [
 export const education = [
   {
     id: 0,
-    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcKFMyAof28GAypu5b9Krlr0OJVsO_6y3NCm8AJJ-IrghI-PCfNdMtT5C7yF-3H0EY6dE&usqp=CAU",
+    img: "https://studyarchitecture.com/wp-content/uploads/usf-logo-450x283.png",
     school: "University of South Florida",
     date: "Aug 2023 - Present",
-    desc: "Currently pursuing my Masters in Electrical and Electronic Engineering, diving deep into advanced concepts and cutting-edge technologies.",
-    degree: "Masters of Science in Electrical and Electronics Engineering",
+    desc: "Embarking on my master's journey at The University Of South Florida feels like stepping into a realm of boundless opportunities, where academic excellence converges with a vibrant community, fostering an environment primed for intellectual growth and innovation. The prospect of delving deep into cutting-edge research, collaborating with esteemed professors, and engaging with a diverse cohort of passionate peers fills me with anticipation for the enriching experiences that lie ahead.",
+    degree: "Masters of Science in Electrical Engineering",
   },
   {
     id: 1,
     img: "https://ecdn.dhakatribune.net/contents/cache/images/1200x630x1xxxxx1x694528/uploads/dten/2017/07/Stamford-University.jpg?watermark=media%2F2023%2F05%2F28%2F1280px-Dhaka_Tribune_Logo.svg-1-a9e61c86dded62d74300fef48fee558f.png",
     school: "Stamford University Bangladesh",
-    date: "Apr 2018 - Jan 2022",
-    grade: "3.10/4.00",
-    desc: "I graduated with distinction, achieving an impressive 80% in my Undergraduate Degree.",
+    date: "Apr 2016 - Jan 2022",
+    desc: "I am delighted to share that I have completed my bachelor's degree in Electrical and Electronic Engineering from Stamford University Bangladesh. The comprehensive curriculum and hands-on experiences at this esteemed institution have not only deepened my understanding of the intricate aspects of both disciplines but have also prepared me for the dynamic challenges of the ever-evolving field. I am grateful for the support of my professors and the collaborative spirit of my fellow students at Stamford University, and I am excited to apply the knowledge and skills acquired to make meaningful contributions in the realm of electrical and electronic engineering.",
     degree: "B.Sc. in Electrical and Electronic Engineering",
   },
   
