@@ -108,59 +108,62 @@ export const experiences = [
     
   },
   {
-    id: 0,
-    img: "https://i.ytimg.com/vi/uOVh-yaZY5I/maxresdefault.jpg",
-    role: "District Coordinator",
-    company: "Himu Paribahan",
-    date: "June 2023 - Present",
-    desc: "A Non-profit organization",
-    
-    
-  },
-  {
     id: 1,
     img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQahcg-7m6cAaIg-P0DrSbSWli49jfPeVuCWA&usqp=CAU",
     role: "Senior Contributor",
     company: "Stamford Robotics Club",
-    date: "June 2023 - July 2023",
-    desc: "Worked on mentoring junior members, leading advanced robotics projects, and fostering innovation in the field of robotics through expertise and guidance.",
+    date: "April 2017 - Jan 2021",
+    desc: "As a Senior Member of the Stamford University Robotics Club,  I play a pivotal role in shaping the direction of the club, mentoring fellow members, and contributing to the overall growth of the robotics community within our organisation.",
     skills: [
-      "Python",
-      "C++",
-      "sensors, actuators, and microcontrollers",
-      "Problem-Solving Skills",
-      "Leadership and Mentoring",
-      "Communication Skills",
+      "Provide mentorship to club members, offering guidance on robotics projects, programming, and technical challenges",
+      "Collaborate with project teams to ensure successful completion of projects",
+      "Plan and conduct advanced workshops or training sessions on specific robotics topics",
+      "Share knowledge and insights gained through experience to help members enhance their skills",
+      "Assist in the preparation of teams for robotics competitions",
+      "Work closely with the club leadership team to contribute to the planning and execution of club activities",
+      "Provide input on the overall vision and goals of the club",
     ],
   },
-  {
+
+    {
     id: 2,
     img: "https://i3.cpcache.com/merchandise/124_750x750_Front_Color-NA.jpg?AttributeValue=NA&c=False&region={%22name%22:%22FrontCenter%22,%22width%22:1.7613686,%22height%22:2.64,%22alignment%22:%22MiddleCenter%22,%22orientation%22:0,%22dpi%22:300,%22crop_x%22:0,%22crop_y%22:0,%22crop_h%22:750,%22crop_w%22:501,%22scale%22:0.19476141,%22template%22:{%22id%22:27312875,%22params%22:{}}}&cid=PUartJBjiF%2Fyg4FdKqiggQ%3D%3D+%7C%7C+Abjky9OcP8VW9nzFIli0tw%3D%3D&ProductNo=273851187",
     role: "Senior Debator",
     company: "Stamford Debate Club",
-    date: "May 2023 - Present",
-    desc: "Contributing to leading team discussions, coaching members on persuasive communication techniques, and refining argumentative skills to foster a competitive and articulate debating team.",
+    date: "May 2018 - Jan 2021",
+    desc: "As a Senior Debater in The Stamford  University Debate Club, I  took on a leadership role in shaping the debate culture within the organization",
     skills: [
-      "Public Speaking",
-      "Critical Thinking",
-      "Research Skills",
-      "Persuasion",
-      "Teamwork and Leadership",
+      "Provide mentorship to junior debaters, offering guidance on debate techniques, argumentation, and public speaking skills",
+      "Facilitate workshops and training sessions to enhance the overall debating skills of club members",
+      "Collaborate with the club leadership team to plan and organize debate events, tournaments, and practice sessions",
+      "Assist in the creation of debate topics and formats for club meetings and competitions",
+      "Stay informed about current events, global issues, and relevant topics for debates",
+      "Work closely with the club leadership team to contribute to the planning and execution of debate-related activities",
+      "Stay abreast of evolving debate formats, styles, and best practices",
+      "Share relevant industry trends and advancements in debate with club members",
     ], 
   },
+  {
+    id: 0,
+    img: "https://i.ytimg.com/vi/uOVh-yaZY5I/maxresdefault.jpg",
+    role: "Coordinator",
+    company: "Himu Paribahan",
+    date: "Nov 2023 - Present",
+    desc: "A Non-profit organization, driven by the unwavering passion of devoted fans of the renowned writer Humayun Ahmed, is a non-profit organization with a visionary mission — to establish an international standards cancer hospital in Bangladesh. Rooted in the spirit of Himu, the beloved character created by Humayun Ahmed, we are committed to bringing world-class cancer care to our nation, fostering hope, resilience, and healing." +
+    "In the spirit of Humayun Ahmed's literary legacy, HIMU PARIBAHAN is a manifestation of the deep affection fans hold for his iconic character, Himu. More than an organization, we are a community united by the shared belief that quality healthcare is a fundamental right. Through our collective efforts, we strive to bring compassion and care to those facing the challenges of cancer.",
+    
+    
+  },
+  
+
   {
     id: 3,
     img: "https://i.ytimg.com/vi/l7JiK12EaVQ/maxresdefault.jpg",
     role: "Founder",
     company: "Proud Of Bangladesh",
-    date: "Nov2021 - Present",
-    desc: "Inspiring national pride, fostering cultural appreciation, and initiating initiatives that celebrate and showcase the rich heritage and achievements of Bangladesh to the world.",
-    skills: [
-      "Community Engagement",
-      "Networking",
-      "Strategic Planning",
-     
-    ],
+    date: "Mar 2017 - Present",
+    desc: "PROUD OF BANGLADESH originated from a spontaneous discussion in a university canteen among a group of friends who shared a common concern for the well-being of street children, impoverished families, and senior and handicapped citizens in Bangladesh. This organization was born out of that moment, fueled by a passion for making a positive impact on the lives of those in need." + 
+      "Mission: At PROUD OF BANGLADESH, our mission is to be a catalyst for positive change in our community. We are dedicated to educating street children, supporting struggling families, and assisting senior and handicapped citizens. While we are currently temporarily closed, we eagerly anticipate the time and opportunity to reopen and continue our journey of empowerment.",
   },
   
 ];
