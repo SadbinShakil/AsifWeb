@@ -98,11 +98,9 @@ export const experiences = [
     date: "Dec 2021 - Mar 2022",
     desc: "I worked as a  Research and Development intern specializing in the intersection of IoT and Electrical Engineering. My passion lies in harnessing the power of innovative technologies to create intelligent and interconnected systems. Throughout my internship, I have actively engaged in a few projects that bridge the gap between the digital and physical worlds.",
     skills: [
-      "Conduct research to identify emerging trends, technologies, and opportunities in IoT and Electrical Engineering",
-      "Stay updated on the latest developments in hardware, software, and communication protocols relevant to IoT applications",
-      "Collaborate with cross-functional teams to define project requirements and specifications",
-      "Implement and test embedded systems for IoT applications, ensuring reliability and performance",
-      "Create detailed documentation for designs, processes, and project outcomes",
+      "C",
+      "S",
+      "C",
       
     ],
     
