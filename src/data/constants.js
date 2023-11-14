@@ -162,8 +162,7 @@ export const experiences = [
     role: "Founder",
     company: "Proud Of Bangladesh",
     date: "Mar 2017 - Present",
-    desc: "PROUD OF BANGLADESH originated from a spontaneous discussion in a university canteen among a group of friends who shared a common concern for the well-being of street children, impoverished families, and senior and handicapped citizens in Bangladesh. This organization was born out of that moment, fueled by a passion for making a positive impact on the lives of those in need.\n" +
-    "\n" + // This creates a new line before the mission part
+     desc: "PROUD OF BANGLADESH originated from a spontaneous discussion in a university canteen among a group of friends who shared a common concern for the well-being of street children, impoverished families, and senior and handicapped citizens in Bangladesh. This organization was born out of that moment, fueled by a passion for making a positive impact on the lives of those in need.\n\n" +
     "Mission: At PROUD OF BANGLADESH, our mission is to be a catalyst for positive change in our community. We are dedicated to educating street children, supporting struggling families, and assisting senior and handicapped citizens. While we are currently temporarily closed, we eagerly anticipate the time and opportunity to reopen and continue our journey of empowerment.",
   },
   
