@@ -39,7 +39,7 @@ const handleContactClick = () => {
         <NavItems>
           <NavLink href="#about">About</NavLink>
           <NavLink href='#skills'>Skills</NavLink>
-         <NavLink href='#projects'>Thesis & Projects</NavLink>
+         <NavLink href='#projects'>Thesis/Projects</NavLink>
           <NavLink href='#experience'>Experience</NavLink>
           <NavLink href='#education'>Education</NavLink>
           <NavLink href='#books'>Books</NavLink>
