@@ -2,7 +2,7 @@
 
 
 export const GalleryConstants = {
-  MAX_IMAGE_SIZE_MB: 10, // Maximum allowed image size in megabytes
+  MAX_IMAGE_SIZE_MB: 10, // Maximum allowed image size in megabytes 
   SUPPORTED_IMAGE_FORMATS: ["image/jpeg", "image/png", "image/jpg"], // Supported image formats
   DEFAULT_CAPTION: "Enter your caption here", // Default caption for uploaded images
 };
@@ -14,10 +14,10 @@ export const Bio = {
     "Research Enthusiast & writer",
   ],
   description:
-    "Currently, I am pursuing my master's in Electrical Engineering at the University Of South Florida 
-     Concentrating on Machine learning and AI. 
-     I am working on speech signal processing, Source Localization and Blind Source Separation under the supervision of Professor Ravi Sanker. 
-    I am planning to link those Studies and research with autonomous cars and robots",
+    "Currently, I am pursuing my master's in Electrical Engineering at the University Of South Florida" + 
+     "Concentrating on Machine learning and AI." + 
+    " I am working on speech signal processing, Source Localization and Blind Source Separation under the supervision of Professor Ravi Sanker. " +
+   " I am planning to link those Studies and research with autonomous cars and robots",
   github: "https://github.com/Asif-Ucchwas",
   resume:
     "https://asifuzzaman.vercel.app/static/media/resume.e74919f66f456e9cb57e.pdf",
@@ -98,9 +98,11 @@ export const experiences = [
     date: "Dec 2021 - Mar 2022",
     desc: "I worked as a  Research and Development intern specializing in the intersection of IoT and Electrical Engineering. My passion lies in harnessing the power of innovative technologies to create intelligent and interconnected systems. Throughout my internship, I have actively engaged in a few projects that bridge the gap between the digital and physical worlds.",
     skills: [
-      "C",
-      "S",
-      "C",
+      "Conduct research to identify emerging trends, technologies, and opportunities in IoT and Electrical Engineering",
+      "Stay updated on the latest developments in hardware, software, and communication protocols relevant to IoT applications",
+      "Collaborate with cross-functional teams to define project requirements and specifications",
+      "Implement and test embedded systems for IoT applications, ensuring reliability and performance",
+      "Create detailed documentation for designs, processes, and project outcomes",
       
     ],
     
