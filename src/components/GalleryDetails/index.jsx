@@ -74,12 +74,12 @@ const Image = styled.img`
 `;
 
 const Label = styled.div`
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 600;
     color: ${({ theme }) => theme.text_primary};
     margin: 8px 6px;
     @media only screen and (max-width: 600px) {
-        font-size: 16px;
+        font-size: 12px;
         margin: 8px 6px;
     }
 `;
