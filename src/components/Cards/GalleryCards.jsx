@@ -108,7 +108,7 @@ const Date = styled.div`
 // `
 
 const Description = styled.div`
-    font-weight: 200;
+    font-weight: 300;
     color: ${({ theme }) => theme.text_secondary + 99};
     margin-top: 5px;
     display: -webkit-box;
@@ -117,7 +117,7 @@ const Description = styled.div`
     -webkit-box-orient: vertical;
     text-overflow: ellipsis;
     font-family: 'Arial', sans-serif; /* Change 'Arial' to the desired font */
-    font-size: 10px; /* Adjust the font size as needed */
+    font-size: 12px; /* Adjust the font size as needed */
 `
 
 const Members = styled.div`
