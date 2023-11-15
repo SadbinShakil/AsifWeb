@@ -58,16 +58,15 @@ const handleContactClick = () => {
             <MobileLink href='#skills' onClick={() => {
               setIsOpen(!isOpen)
             }}>Skills</MobileLink>
+            <MobileLink href='#projects' onClick={() => {
+              setIsOpen(!isOpen)
+            }}>Thesis/Projects</MobileLink>
             <MobileLink href='#experience' onClick={() => {
               setIsOpen(!isOpen)
             }}>Experience</MobileLink>
-            <MobileLink href='#projects' onClick={() => {
-              setIsOpen(!isOpen)
-            }}>Projects</MobileLink>
             <MobileLink href='#gallery' onClick={() => {
               setIsOpen(!isOpen)
             }}>Gallery</MobileLink>
-
             <MobileLink href='#books' onClick={() => {
               setIsOpen(!isOpen)
             }}>Books</MobileLink>
