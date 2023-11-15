@@ -335,7 +335,7 @@ export const gallery = [
      "and problem-solving abilities. The experience has not only solidified our passion for robotics but also motivated us to continue pushing the" +
      "boundaries of technological innovation in future projects",
     image:
-      "https://ibb.co/StN425g",
+      "https://i.ibb.co/VgVcdJG/1stPic.jpg",
   },
   {
     id: 1,
