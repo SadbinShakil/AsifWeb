@@ -317,7 +317,7 @@ export const projects = [
     tags: ["IoT Sensors and Devices", "Edge Computing","Data Visualization Tools","Communication Protocols","Cloud Computing and Data Analytics"],
     category: "Thesis",
     github: "#",
-    webapp: "#",
+    webapp: "https://drive.google.com/file/d/1cIRK_atvu0M8qoh9UjA4CvpS5SvGbtKv/view?usp=sharing",
   },
 ];
 
