@@ -330,17 +330,17 @@ export const gallery = [
     description:
       "Our group's collaborative effort on the robotic car project proved to be both innovative and successful, earning us the prestigious" +
       "3rd prize at the Inter Private University Robotic Fair. Through meticulous planning and execution, we designed a cutting-edge robotic" +
-  "car that showcased advanced functionalities and addressed specific challenges in the field. Receiving recognition for our hard work and ingenuity" +
-  "in a competitive environment has been immensely gratifying. This achievement underscores the effectiveness of our teamwork, technical skills,"+
-  "and problem-solving abilities. The experience has not only solidified our passion for robotics but also motivated us to continue pushing the" +
-  "boundaries of technological innovation in future projects",
+      "car that showcased advanced functionalities and addressed specific challenges in the field. Receiving recognition for our hard work and ingenuity" +
+     "in a competitive environment has been immensely gratifying. This achievement underscores the effectiveness of our teamwork, technical skills," +
+     "and problem-solving abilities. The experience has not only solidified our passion for robotics but also motivated us to continue pushing the" +
+     "boundaries of technological innovation in future projects",
     image:
       "https://ibb.co/StN425g",
   },
   {
     id: 1,
     description:
-      "In this captivating photo taken under the moonlight, the title "Oshrushunno Rodon" is more than a name;" +
+      "In this captivating photo taken under the moonlight, the title 'Oshrushunno Rodon' is more than a name;" +
         "it's a visual symphony of memories and creativity. The soft moonlit glow serves as a celestial backdrop, " +
         "weaving a story of inspiration and dedication that breathes life into the pages of my upcoming publishing book. Each shadow and" +
         "highlight in the photograph mirrors the intricate layers of emotions and ideas that have blossomed.  This image not only captures" +
