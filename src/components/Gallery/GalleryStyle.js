@@ -44,13 +44,13 @@ margin-top: 2px;
 `;
 
 export const Desc = styled.div`
-    font-size: 18px;
+    font-size: 12px;
     text-align: center;
     max-width: 600px;
     color: ${({ theme }) => theme.text_secondary};
     @media (max-width: 768px) {
         margin-top: 2px;
-        font-size: 16px;
+        font-size: 12px;
     }
 `;
 
