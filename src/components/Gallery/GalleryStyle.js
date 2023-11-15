@@ -58,12 +58,12 @@ export const ToggleButtonGroup = styled.div`
     display: flex;
     border: 1.5px solid ${({ theme }) => theme.primary};
     color: ${({ theme }) => theme.primary};
-    font-size: 16px;
+    font-size: 12px;
     border-radius: 12px;
     font-weight: 500;
     margin: 22px 0px;
     @media (max-width: 768px) {
-        font-size: 12px;
+        font-size: 10px;
     }
 `
 
