@@ -9,15 +9,14 @@ export const GalleryConstants = {
 
 import styled from 'styled-components';
 
-const SmallerText = styled.span`
-  font-size: 14px; /* Or any other size you prefer */
+const roles = styled.span`
+  font-size: 4px;
 `;
 
 export const Bio = {
   name: "MD ASIFUZZAMAN",
   roles: [
-    // "Research Enthusiast & writer",
-    <SmallerText>Research Enthusiast & writer</SmallerText>,
+        "Research Enthusiast & writer",
   ],
   description:
     "Currently, I am pursuing my master's in Electrical Engineering at the University Of South Florida" + 
