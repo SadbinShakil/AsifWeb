@@ -95,16 +95,29 @@ const Date = styled.div`
 `
 
 
+// const Description = styled.div`
+//     font-weight: 200;
+//     color: ${({ theme }) => theme.text_secondary + 99};
+//     //overflow: hidden;
+//     margin-top: 5px;
+//     display: -webkit-box;
+//     max-width: 100%;
+//     -webkit-line-clamp: 3;
+//     -webkit-box-orient: vertical;
+//     text-overflow: ellipsis;
+// `
+
 const Description = styled.div`
     font-weight: 200;
     color: ${({ theme }) => theme.text_secondary + 99};
-    //overflow: hidden;
     margin-top: 5px;
     display: -webkit-box;
     max-width: 100%;
     -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
     text-overflow: ellipsis;
+    font-family: 'Arial', sans-serif; /* Change 'Arial' to the desired font */
+    font-size: 6px; /* Adjust the font size as needed */
 `
 
 const Members = styled.div`
