@@ -16,7 +16,7 @@ const Button = styled.button`
     transition: all 0.8s ease-in-out;
 `
 const Card = styled.div`
-    width: 130px;
+    width: 230px;
     height: 190px;
     background-color: ${({ theme }) => theme.card};
     cursor: pointer;
