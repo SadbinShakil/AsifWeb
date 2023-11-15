@@ -19,7 +19,9 @@ export const Bio = {
    " I am planning to link those Studies and research with autonomous cars and robots",
   github: "https://github.com/Asif-Ucchwas",
   resume:
-    "https://asifuzzaman.vercel.app/static/media/resume.e74919f66f456e9cb57e.pdf",
+    // "https://asifuzzaman.vercel.app/static/media/resume.e74919f66f456e9cb57e.pdf",
+    "https://drive.google.com/drive/folders/1bDUEFgHjemK7tHSEFakc9OuW4QMbWaVD?usp=sharing",
+    
   linkedin: "https://www.linkedin.com/in/md-asifuzzaman-ab13b3203/",
   twitter: "https://twitter.com/",
   insta: "https://www.instagram.com/",
