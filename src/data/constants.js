@@ -328,7 +328,7 @@ export const gallery = [
   {
     id: 0,
     description:
-      "Our group's collaborative effort on the robotic car project proved to be both innovative and successful, earning us the prestigious" "
+      "Our group's collaborative effort on the robotic car project proved to be both innovative and successful, earning us the prestigious" +
       "3rd prize at the Inter Private University Robotic Fair. Through meticulous planning and execution, we designed a cutting-edge robotic" +
   "car that showcased advanced functionalities and addressed specific challenges in the field. Receiving recognition for our hard work and ingenuity" +
   "in a competitive environment has been immensely gratifying. This achievement underscores the effectiveness of our teamwork, technical skills,"+
