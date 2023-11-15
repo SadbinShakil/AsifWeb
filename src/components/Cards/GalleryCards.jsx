@@ -117,7 +117,7 @@ const Description = styled.div`
     -webkit-box-orient: vertical;
     text-overflow: ellipsis;
     font-family: 'Arial', sans-serif; /* Change 'Arial' to the desired font */
-    font-size: 12px; /* Adjust the font size as needed */
+    font-size: 11.5px; /* Adjust the font size as needed */
 `
 
 const Members = styled.div`
