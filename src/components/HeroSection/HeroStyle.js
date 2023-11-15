@@ -113,8 +113,8 @@ export const Img = styled.img`
 `;
 
 export const Title = styled.div`
-  font-weight: 700;
-  font-size: 50px;
+  font-weight: 500;
+  font-size: 20px;
   color: ${({ theme }) => theme.text_primary};
   line-height: 68px;
   @media (max-width: 960px) {
@@ -129,8 +129,8 @@ export const Title = styled.div`
 `;
 
 export const TextLoop = styled.div`
-  font-weight: 600;
-  font-size: 32px;
+  font-weight: 500;
+  font-size: 22px;
   display: flex;
   gap: 12px;
   color: ${({ theme }) => theme.text_primary};
@@ -139,7 +139,7 @@ export const TextLoop = styled.div`
     text-align: center;
   }
   @media (max-width: 640px) {
-    font-size: 22px;
+    font-size: 12px;
     line-height: 48px;
     margin-bottom: 16px;
   }
