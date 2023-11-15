@@ -328,14 +328,14 @@ export const gallery = [
   {
     id: 0,
     description:
-      "Confidence in Every Stitch: Elevating Style, Redefining Elegance. #SuitUp #ProfessionalElegance",
+      "Our group's collaborative effort on the robotic car project proved to be both innovative and successful, earning us the prestigious 3rd prize at the Inter Private University Robotic Fair. Through meticulous planning and execution, we designed a cutting-edge robotic car that showcased advanced functionalities and addressed specific challenges in the field. Receiving recognition for our hard work and ingenuity in a competitive environment has been immensely gratifying. This achievement underscores the effectiveness of our teamwork, technical skills, and problem-solving abilities. The experience has not only solidified our passion for robotics but also motivated us to continue pushing the boundaries of technological innovation in future projects",
     image:
-      "https://i.ibb.co/kSqm5Zf/Hero-Image.jpg",
+      "https://ibb.co/StN425g",
   },
   {
     id: 1,
     description:
-      "Bathed in Moonlight, Embracing the Night. Capturing Moments, Creating Memories. #NighttimeElegance #MoonlitAdventures",
+      "In this captivating photo taken under the moonlight, the title "Oshrushunno Rodon" is more than a name; it's a visual symphony of memories and creativity. The soft moonlit glow serves as a celestial backdrop, weaving a story of inspiration and dedication that breathes life into the pages of my upcoming publishing book. Each shadow and highlight in the photograph mirrors the intricate layers of emotions and ideas that have blossomed.  This image not only captures the essence of the book but also freezes a moment in time, reminiscent of the quiet, magical hours when the words came alive beneath the moonlit sky, etching a beautiful memory in the process.",
     image:
       "https://i.ibb.co/Q8DYm6p/6.jpg",
   },
@@ -343,7 +343,7 @@ export const gallery = [
   {
     id: 2,  
     description:
-      "In the Heart of Knowledge: Surrounded by Stories, Enriched by Wisdom. Embracing the Power of Learning. #BookwormAdventures #LibraryLife 📚",
+      "In this captivating photo, I am surrounded by the enchanting backdrop of a bookshelf, each shelf telling a story of literary adventures and knowledge. The warm hues of the books create a cozy atmosphere, reflecting my deep love for reading. With a book in hand and a thoughtful expression, the image captures a moment of quiet delight, as I indulge in the magic that unfolds within the pages. This photograph is a testament to my passion for books, portraying not only a physical collection but also the intangible treasures of imagination and wisdom that reading brings into my life.",
     image:
       "https://i.ibb.co/ykTGQf5/1.jpg",
   },
@@ -351,7 +351,7 @@ export const gallery = [
   {
     id: 3,
     description:
-      "Lost in Nature's Canvas: Atop the World, Breathing in Serenity. Embracing the Beauty of the Earth. #NatureLover #Wanderlust 🍃",
+      "In this awe-inspiring photo, I stand against a majestic mountain backdrop, surrounded by the breathtaking beauty of nature. The towering peaks and expansive landscapes echo the sense of adventure and wanderlust that defines my love for travel. With a heart full of appreciation for the wonders of the world, the image captures a moment of serenity and connection with the great outdoors. It's a visual testament to my passion for exploring new horizons and seeking inspiration from the unparalleled grandeur of the natural world. This photograph encapsulates the joy and fulfillment that comes with the exploration of diverse landscapes, making every journey a chapter in the story of my adventurous spirit.",
     image:
       "https://i.ibb.co/Gcn1wm7/5.jpg",
   },
