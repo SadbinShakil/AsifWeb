@@ -7,11 +7,15 @@ export const GalleryConstants = {
   DEFAULT_CAPTION: "Enter your caption here", // Default caption for uploaded images
 };
 
+.smaller-text {
+  font-size: 14px; /* Or any other size you prefer */
+}
 
 export const Bio = {
   name: "MD ASIFUZZAMAN",
   roles: [
-    "Research Enthusiast & writer",
+    // "Research Enthusiast & writer",
+    "<span class='smaller-text'>Research Enthusiast & writer</span>",
   ],
   description:
     "Currently, I am pursuing my master's in Electrical Engineering at the University Of South Florida" + 
