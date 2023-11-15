@@ -7,12 +7,6 @@ export const GalleryConstants = {
   DEFAULT_CAPTION: "Enter your caption here", // Default caption for uploaded images
 };
 
-import styled from 'styled-components';
-
-const roles = styled.span`
-  font-size: 4px;
-`;
-
 export const Bio = {
   name: "MD ASIFUZZAMAN",
   roles: [
