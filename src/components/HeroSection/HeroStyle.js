@@ -122,7 +122,7 @@ export const Title = styled.div`
   }
 
   @media (max-width: 640px) {
-    font-size: 30px;
+    font-size: 20px;
     line-height: 48px;
     margin-bottom: 8px;
   }
