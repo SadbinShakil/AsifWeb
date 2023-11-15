@@ -113,8 +113,8 @@ export const Img = styled.img`
 `;
 
 export const Title = styled.div`
-  font-weight: 600;
-  font-size: 30px;
+  font-weight: 650;
+  font-size: 36px;
   color: ${({ theme }) => theme.text_primary};
   line-height: 68px;
   @media (max-width: 960px) {
@@ -122,7 +122,7 @@ export const Title = styled.div`
   }
 
   @media (max-width: 640px) {
-    font-size: 30px;
+    font-size: 35px;
     line-height: 48px;
     margin-bottom: 8px;
   }
