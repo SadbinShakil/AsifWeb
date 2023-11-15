@@ -221,16 +221,16 @@ export const projects = [
     date: "Jun 2023 - Jul 2023",
     description:
       "Empowering seamless control of AC and DC loads through wireless devices, our project blends convenience and efficiency, revolutionizing how electrical appliances are managed in modern environments.",
-    // image:
-    //   "https://i.ytimg.com/vi/EclIomn_3dI/maxresdefault.jpg",
-    // tags: [
-    //   "Wireless Communication Protocols",
-    //   "Microcontroller Platforms",
-    //   "Internet of Things (IoT) Integration",
-    //   "Sensor Technology",
-    //   "Cloud Computing",
+    image:
+      "https://i.ytimg.com/vi/EclIomn_3dI/maxresdefault.jpg",
+    tags: [
+      "Wireless Communication Protocols",
+      "Microcontroller Platforms",
+      "Internet of Things (IoT) Integration",
+      "Sensor Technology",
+      "Cloud Computing",
       
-    // ],
+    ],
     category: "Remote Control",
     github: "#",
     webapp: "#",
