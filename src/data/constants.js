@@ -328,12 +328,7 @@ export const gallery = [
   {
     id: 0,
     description:
-      "Our group's collaborative effort on the robotic car project proved to be both innovative and successful, earning us the prestigious" +
-      "3rd prize at the Inter Private University Robotic Fair. Through meticulous planning and execution, we designed a cutting-edge robotic" +
-      "car that showcased advanced functionalities and addressed specific challenges in the field. Receiving recognition for our hard work and ingenuity" +
-     "in a competitive environment has been immensely gratifying. This achievement underscores the effectiveness of our teamwork, technical skills," +
-     "and problem-solving abilities. The experience has not only solidified our passion for robotics but also motivated us to continue pushing the" +
-     "boundaries of technological innovation in future projects",
+      "Our team's work on the robotic car project earned us the 3rd prize at the Inter Private University Robotic Fair. Our design showcased advanced features and tackled industry challenges. This recognition highlights our teamwork, technical prowess, and problem-solving skills, reinforcing our passion for robotics and inspiring us to pursue more innovative projects.",
     image:
       "https://i.ibb.co/VgVcdJG/1stPic.jpg",
   },
@@ -353,11 +348,7 @@ export const gallery = [
   {
     id: 2,  
     description:
-      "In this captivating photo, I am surrounded by the enchanting backdrop of a bookshelf, each shelf telling a story of literary adventures" +
-      "and knowledge. The warm hues of the books create a cozy atmosphere, reflecting my deep love for reading. With a book in hand and a thoughtful" +
-      "expression, the image captures a moment of quiet delight, as I indulge in the magic that unfolds within the pages. This photograph is a testament" +
-      "to my passion for books, portraying not only a physical collection but also the intangible treasures of imagination and wisdom that reading brings" +
-      "into my life.",
+      "This captivating photo, titled 'Oshrushunno Rodon,' is more than an image; it's a visual narrative of memories and creativity. The soft moonlit backdrop tells a story of inspiration, breathing life into the pages of my upcoming book. Every shadow and highlight mirrors the emotions and ideas within. It freezes a moment, reminiscent of the magical hours when words came alive under the moonlit sky, etching a beautiful memory in time.",
     image:
       "https://i.ibb.co/ykTGQf5/1.jpg",
   },
